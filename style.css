@@ -1,0 +1,402 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
+.wrapper{ /*the wrapper used throughout website*/
+	width:1200px;
+	height:100%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+/*this is the nav bar*/
+
+ol { /**/
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	overflow:hidden;
+	background-color:#231913;
+}
+
+li { /*where the nav options sit*/
+	display:inline;
+	float:right;
+}
+
+li a { /*the link*/
+	display:block;
+	color:#f4f4f4;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:400;
+	font-size:15pt;
+	text-align:center;
+	padding: 10px 50px;
+	text-decoration:none;
+}
+
+li a:hover { /*when you hover over link*/
+	background-color:transparent;
+	color:#CC9660;
+}
+
+
+.Header{ /*the brown nav header box*/
+	width:100%;
+	height:180px;
+	padding-top:50px;
+	background-color:#231913;
+}
+
+.Logocontainer{ /*where logo is*/
+	width:250px;
+	height:113px;
+	margin-left:20%;
+	float:left;
+}
+
+.overlay{ /*overlay for logo link*/
+	position:absolute;
+	height:113px;
+	width:250px;
+	margin-left:20%;
+	opacity:100;
+	transition:.5s ease;
+}
+
+.Logocontainer:hover .overlay{ /*the hover*/
+	opacity:1;
+}
+
+.logoimage{ /*the container for the image*/
+	width:250px;
+	height:113px;
+	margin-left:20%;
+	text-align:center;
+}
+
+.TabBar{ /*the bar where the links are*/
+	width:85%;
+	height:20px;
+	background-color:#231913;
+}
+
+
+
+/*this is the homepage*/
+
+
+h1{ /*Minny's Famous Pies*/
+color: #231913;
+	font-family: 'Open Sans', sans-serif;
+	line-height:40px;
+	font-weight:600; 
+	font-size: 25px;
+	font-kerning: 30px;
+	margin-left:20px;
+}
+
+h2{ /*item of the week*/
+	color: #231913;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600; 
+	font-size: 40px;
+	text-align: center;
+	margin: 0;
+	padding-top: 10px;
+}
+
+h3{ /*CATERING*/
+
+	color: #f4f4f4;
+	font-family:'Open Sans', sans-serif; 
+	font-weight:400; 
+	font-size: 80px;
+	letter-spacing: 25px;
+	margin: 0;
+	padding: 0;
+}
+
+p-1{ /*Intro paragraph*/
+color: #231913;
+	font-family:'Open Sans', sans-serif; 
+	line-height:28px;
+	font-weight:400; 
+	font-size: 16px;
+	font-kerning: 30px;
+}
+
+p-2{ /*quotes and Introducing...*/
+	color: #f4f4f4;
+	font-family: 'Open Sans', sans-serif;
+	line-height:28px;
+	font-weight:400; 
+	font-size: 16px;
+	font-kerning: 30px;
+}
+
+p-3{ /*footer address*/
+	color: #cc966d;
+	font-family:'Open Sans', sans-serif; 
+	font-size: 16px;
+}
+
+p-4{
+	color: #231913;
+}
+
+
+
+.firstRow{ /*row where the into paragraph and pie picture are*/
+	width: 100%;
+	height:400px;
+	/*background-color: pink;*/
+}
+
+.blankRow{ /*used on first and second row to add space*/
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+
+.chocPieText{ /*where the into paragraph is*/
+	width: 450px;
+	height: 300px;
+	float: left;
+	/*background-color: blue;*/
+	padding-top: 100px;
+}
+
+.chocPieImage{ /*where the pie picture is*/
+	width: 580.5px;
+	height: 370px;
+	padding-top: 30px;
+	float: left;
+	padding-left: 69.5px;
+}
+
+
+
+.secondRow{ /*row where quotes are*/
+	width: 100%;
+	height: 225px;
+	background-color: #4c4644;
+	padding-top: 25px;
+}
+
+.imagebox{ /*where the image is located*/
+	width: 200px;
+	height: 200px;
+	padding-right:50px;
+	padding-left:50px;
+	float: left;
+	background-color:#4c4644;
+}
+
+.image{ /*the image of woman*/
+	width: 200px;
+	height: 200px;
+	border-radius:50%;
+}
+
+.quote{ /*the quote of woman*/
+	width: 550px;
+	height: 150px;
+	padding-top:50px;
+	padding-right:200px;
+	float: left;
+	background-color:#4c4644;
+}
+
+.image2{ /*the image of man*/
+	width: 200px;
+	height: 200px;
+	border-radius:50%;
+	float:right;
+}
+
+.quote2{ /*the quote of man*/
+	width: 550px;
+	height: 150px;
+	padding-top:50px;
+	padding-left:200px;
+	float: left;
+	background-color: #4c4644;
+}
+
+
+
+.thirdRow-header{ /*row where "Item of the Week" is*/
+	width: 100%;
+	height: 80px;
+	margin-top: 105px;
+}
+
+.item{ /*div where "Item of the Week" is*/
+	width: 1200px;
+	height: 100%;
+}
+
+.thirdRow{ /*row where whoopie pie info is*/
+	width: 100%;
+	height: 400px;
+	margin-bottom: 175px;
+}
+
+.itemBoarder{ /*the image of whoopie pie and background*/
+	width: 1200px;
+	height: 400px;
+	background-image: url("images/item_boarder.png");
+}
+
+.blank{ /*first blank*/
+	width: 575px;
+	height: 100%;
+	float: left;
+}
+
+.blank2{ /*dsecond blank*/
+	width: 150px;
+	height: 100%;
+	float: left;
+}
+
+.text{ /*where the text goes*/
+	width: 475px;
+	height: 315px;
+	float: left;
+	padding-top: 75px;
+}
+
+.button2 { /*button for menu section (Menu)*/
+	height:35px;
+	width:90px;
+  background-color: #f4f4f4;
+  color: #231913;
+  padding-top:10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  margin-top: 23px;
+  margin-left:135px;
+  font-family:'Open Sans', sans-serif;
+  font-weight:400; 
+  border-radius: 8px;
+  position:relative; 
+}
+
+
+a:link{
+	 text-decoration:none; 
+	 color: #231913;
+}
+
+.button2:hover {
+	transition:0.3s;
+	text-decoration:none;
+	opacity: 1;
+	background-color:#CC9660;
+}
+
+
+
+.fourthRow{ /*row where catering image is*/
+	width: 100%;
+	height: 600px;
+	background-image: url("images/catering_image1.png");
+	
+	background-repeat: no-repeat;
+	text-align: center;
+	position: relative;
+	vertical-align: middle;
+}
+
+.catering{ /*where the text "catering" is*/
+	width: 100%;
+	height: 80px;
+	padding-top: 20%;
+
+}
+
+.button { /*button for catering section (Learn More)*/
+  	height:35px;
+  	width:150px;
+  	background-color: #f4f4f4;
+  	color: #231913;
+  	padding-top: 10px;
+  	text-align: center;
+  	display: inline-block;
+  	font-size: 17px;
+  	margin: 4px 2px;
+  	font-family:'Open Sans', sans-serif;
+  	font-weight:400; 
+  	border-radius: 8px;
+  	position:relative; 
+}
+
+
+a:link{
+	 text-decoration:none; 
+	 color: #231913;
+}
+
+.button:hover {
+	transition:0.3s;
+	text-decoration:none;
+	opacity: 1;
+	background-color:#CC9660;
+}
+
+
+/*footer*/
+
+
+.footer{ /* this section is the footer, where my social media links will go */
+	width: 100%;
+	height: 180px;
+	background-color: #231913;
+	padding-top: 50px;
+}
+
+.footerCol-out{ /* the space before and after the icons */
+	width: 375px;
+	height:100%;
+	float: left;
+}
+
+.footerIconCol{ /* the box that the icons will go in */
+	width: 450px;
+	height:100%;
+	float: left;
+	text-align: center;
+}
+
+.icons { /*the class where the icon link goes*/
+	width: 150px;
+	height:100px;
+	float:left;
+	text-align:center;
+	/*padding-top:60px;*/
+}
+
+.fab{ /*allows me to change the icon size, color, etc.*/
+	padding:10px;
+	font-size:45px;
+	height:45px;
+	width:45px;
+	margin: 5px 2px;
+	text-align:center;
+	border-radius:50%;
+	background-color: #f4f4f4;
+	color: #231913;
+}
+
+.fab:hover{ /*the hover over the icons*/
+	transition:0.3s;
+	background: #CC9660;;
+}
+
